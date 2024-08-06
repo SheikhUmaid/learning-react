@@ -6,7 +6,7 @@ function App() {
 
   return (
     <h1>
-      chai aur code with vite helo world
+      tea and code with vite helo world
     </h1>
   )
 }
