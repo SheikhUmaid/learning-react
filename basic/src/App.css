@@ -1,0 +1,14 @@
+*{
+    background: #272020;   
+    /* display: flex; */
+    color: white;
+    
+}
+
+.Hello{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
