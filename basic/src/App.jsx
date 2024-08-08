@@ -4,16 +4,16 @@ import "./App.css"
 
 function App() {
 
-  let [counter, setCounter] = useState(Number.MAX_VALUE)
+  let [counter, setCounter] = useState(0)
 
 
   // let counter = 0;
   const add = ()=>{
-    setCounter(counter + (Number.MAX_VALUE / 2));
+    if(counter < 20) setCounter(++counter );
   }
 
   const sub = ()=>{
-    setCounter(counter - (Number.MAX_VALUE / 2));
+    if(counter > 0) setCounter(counter - 1);
   }
 
 
